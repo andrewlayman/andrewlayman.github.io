@@ -1,0 +1,136 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style, scheme = "green" Colors 1/15/2024 6:07:11 PM */
+
+
+
+
+
+
+a:link {text-decoration: none; color: #2C0708; background:transparent; }
+a:visited {text-decoration: none;  color: #000000; background:transparent;}
+a:hover {text-decoration: underline; color: #FF0000; background:transparent;}
+
+.minortext a:link {color: #000066; background:transparent;}
+.minortext a:visited {color: #000066; background:transparent; }
+.minortext a:hover {text-decoration: underline; color: #FF0000; background:transparent;}
+
+.list-minorlist a:link {color: #2C0708; background:transparent;}
+.list-minorlist a:visited {color: #000000; background:transparent; }
+.list-minorlist a:hover {text-decoration: underline; color: #FF0000; background:transparent;}
+
+#LinkBarBlock a:link {color: #D6E7AD; background:transparent;}
+#LinkBarBlock a:visited {color: #D6E7AD; background:transparent;}
+#LinkBarBlock a:hover {text-decoration: underline; color: #FF0000; background:transparent; }
+
+BODY, #BackgroundBlock {
+    color: #000066;
+ 	   border-color: #D3C6B5; 
+}
+
+BODY {
+    background: #D6E7AD;
+}
+
+#BackgroundBlock {
+    background: #D6E7AD url(images/swallows-green.gif);
+}
+
+#PageBlock {
+ 	   border-color: #000066;
+    /* background: url(images/paper.jpg); */
+}
+
+#MainColumn {
+    color: #000066;
+    background-color: transparent;  
+}
+
+#SideColumn {
+    color: #000066;
+    background-color: #D3C6B5;  
+    border-left-color:#000066;
+}
+
+#LinkBarBlock, #LinkBarRightBlock {
+	    color: #D6E7AD; 
+}
+
+#LinkBarBlock, #LinkBarRightBlock, #LogoBlock, #PathBlock {
+   background-color: #000066;
+}
+
+H1, H2, H3 {
+color: #000066;
+}
+
+
+
+
+#MainColumnBlock, #FinePrintBlock {
+  background-color:  transparent;
+  border-left-color:#000066;
+}
+
+#SideColumnBlock, #InternalNavBlock { 
+    background-color: transparent;
+}
+
+
+.copyright, .copyright A {
+    color: #D3C6B5;
+}
+
+.blogdate {
+    color: #000066; 
+}
+
+.BlogDetail {
+    border-color: #000066; 
+}
+
+input {
+  border-color: #000066;
+    color: #000066;
+    background-color: #D6E7AD;
+}

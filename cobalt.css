@@ -1,0 +1,134 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style, scheme = "cobalt" Colors 1/15/2024 6:07:11 PM */
+
+
+
+
+a:link {text-decoration: none; color: #000066; background:transparent; }
+a:visited {text-decoration: none;  color: #9A341D; background:transparent;}
+a:hover {text-decoration: underline; color: #FF0F00; background:transparent;}
+
+.minortext a:link {color: #2C0708; background:transparent;}
+.minortext a:visited {color: #2C0708; background:transparent; }
+.minortext a:hover {text-decoration: underline; color: #FF0F00; background:transparent;}
+
+.list-minorlist a:link {color: #000066; background:transparent;}
+.list-minorlist a:visited {color: #9A341D; background:transparent; }
+.list-minorlist a:hover {text-decoration: underline; color: #FF0F00; background:transparent;}
+
+#LinkBarBlock a:link {color: #E5DDC7; background:transparent;}
+#LinkBarBlock a:visited {color: #E5DDC7; background:transparent;}
+#LinkBarBlock a:hover {text-decoration: underline; color: #FF0F00; background:transparent; }
+
+BODY, #BackgroundBlock {
+    color: #2C0708;
+ 	   border-color: #D3C6B5; 
+}
+
+BODY {
+    background: #E5DDC7;
+}
+
+#BackgroundBlock {
+    background: #E5DDC7;
+}
+
+#PageBlock {
+ 	   border-color: #000099;
+    /* background: url(images/paper.jpg); */
+}
+
+#MainColumn {
+    color: #2C0708;
+    background-color: transparent;  
+}
+
+#SideColumn {
+    color: #2C0708;
+    background-color: #D3C6B5;  
+    border-left-color:#000099;
+}
+
+#LinkBarBlock, #LinkBarRightBlock {
+	    color: #E5DDC7; 
+}
+
+#LinkBarBlock, #LinkBarRightBlock, #LogoBlock, #PathBlock {
+   background-color: #000099;
+}
+
+H1, H2, H3 {
+color: #2C0708;
+}
+
+
+
+
+#MainColumnBlock, #FinePrintBlock {
+  background-color:  transparent;
+  border-left-color:#000099;
+}
+
+#SideColumnBlock, #InternalNavBlock { 
+    background-color: transparent;
+}
+
+
+.copyright, .copyright A {
+    color: #D3C6B5;
+}
+
+.blogdate {
+    color: #2C0708; 
+}
+
+.BlogDetail {
+    border-color: #2C0708; 
+}
+
+input {
+  border-color: #2C0708;
+    color: #2C0708;
+    background-color: #E5DDC7;
+}

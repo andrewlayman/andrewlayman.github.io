@@ -1,0 +1,217 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fonts 1/15/2024 6:13:15 PM */
+
+
+
+
+
+BODY {
+    font-family: Georgia,Calibri,Helvetica, Verdana, Arial, "Sans Serif"; 
+    font-size: 100%;
+    line-height: 125%; 
+}
+
+.homelink {
+    font-size:large;
+    font-weight: bold;
+}
+
+#LinkBarBlock {
+		    font-size:medium;  
+	    	text-decoration: none; 
+	}
+
+
+#FinePrintBlock H2, .credits H2 {
+  text-decoration: none; 
+  font-style:italic; 
+  font-size:xx-small; 
+  text-transform:none;}
+
+#InternalNavBlock P, .credits P, .sharing span {
+  text-decoration: none; 
+  font-size:x-small;
+}
+
+#FinePrintBlock H2, .credits H2 {
+  text-decoration: none; 
+  font-style:italic; 
+  font-size:xx-small; 
+  text-transform:none;}
+    
+.copyright, .copyright A {
+  text-decoration: none; 
+  font-style:italic; 
+  font-size:x-small
+}
+
+#FinePrintBlock, .sharing {
+  font-size:x-small
+}
+
+
+H1, H2, H3, H4, .blogtitle {
+    font-face: Georgia,Calibri,Helvetica, Verdana, Arial, "Sans Serif";
+		    font-weight: normal; 
+	    text-decoration: none;
+	    line-height: 125%; 
+}
+
+H1 { 
+	font-weight: bold;
+	font-size:x-large;
+}
+
+H1.strongbrainstitle {
+		font-style: italic; 	
+	font-size: 130%; 
+	font-weight:bold;
+}
+
+H2, .blogtitle {
+  font-size:large; 
+  text-transform:uppercase;
+}
+
+H2.TitlePageHeading {
+		text-transform:none; 
+	font-size:x-large; 
+}
+
+H3 { 
+	font-size:medium;
+font-variant: small-caps;
+}
+
+H2.surtitle {
+		text-transform:none; 
+	font-size:large; 
+	margin-top:.3em; 
+	margin-bottom:1em
+}
+
+.SectionHead {
+		font-variant: small-caps; 
+	font-weight: bold; 
+	text-decoration: none; 
+}
+
+.SubtleHeads H2 {
+	font-size:medium; 
+	font-weight:bold; 
+	text-transform:none; 
+	margin: 1em 1em .5em 0;
+	}
+
+.SubtleHeads H3 {
+	font-size:small; 
+	font-weight:bold; 
+	text-transform:none; 
+	margin: 1em 1em .5em 0;
+	}
+
+.setoffsection {
+    font-size: small;
+}
+
+.normaltext {
+	font-weight:normal;
+	font-size:80%;
+}
+
+.superscript {
+	vertical-align: super;
+	font-size:60%;
+}
+
+PRE {
+	font-family: "Courier New", Courier, "Sans Serif", Serif; 
+}
+
+.caption P, LABEL P {
+  text-decoration: none;
+  font-size:small;
+}
+
+input, label {
+	  font-size: x-small
+}
+
+.blogdate {
+  margin-top: .1em; 
+  margin-bottom:1em;
+  font-size: small;
+}
+
+
+#MainColumnBlock P, #MainColumnBlock .list-moreinfolist {
+  font-size: small;
+}
+
+.itemtitle {
+    font-size:100%;
+    font-weight: bold;
+}
+.itemsubtitle {font-style:italic; ;}
+.itemauthor {font-style:italic; }
+.itempublisher {font-style:italic; }
+
+.titleofwork {font-style:italic;}
+.leadingquote {font-style:italic;}
+.attribution { font-weight: normal; text-decoration: none; font-size:x-small; }
+DD  { margin:1em 0 1em 5em;} 
+DL P { margin:1em 0 1em 0;} 
+
+.list-menu-table {
+  font-size:small
+}
+
+.more_info, .list-minorlist li {
+  font-weight: normal; 
+  font-size:x-small;
+  text-decoration: none; 
+}
+
+.heading {font-size:xx-large }
+.minortext, .list-minorlist {font-weight: normal; text-decoration: none; font-size:60%%}
+.searchlabel {font-weight: normal; text-decoration: none; font-size:xx-small}
+
+.credits {
+	font-size:x-small; 
+	padding: 2em 0 0 0;
+}
+
+.caption {
+	  text-decoration: none; 
+	  font-size:x-small;
+  line-height: 120%;
+}
+
+.captionLarge {
+		font-weight: bold; 
+	text-decoration: none; 
+	font-size:large
+}
+
+.indexhighlight {font-weight:bold;}
