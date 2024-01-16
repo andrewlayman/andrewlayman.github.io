@@ -1,0 +1,134 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+/* Style, scheme = "adult" Colors 1/15/2024 6:07:12 PM */
+
+
+
+
+a:link {text-decoration: none; color: #004F55; background:transparent; }
+a:visited {text-decoration: none;  color: #2D4F53; background:transparent;}
+a:hover {text-decoration: underline; color: #FF0F00; background:transparent;}
+
+.minortext a:link {color: #00181C; background:transparent;}
+.minortext a:visited {color: #00181C; background:transparent; }
+.minortext a:hover {text-decoration: underline; color: #FF0F00; background:transparent;}
+
+.list-minorlist a:link {color: #004F55; background:transparent;}
+.list-minorlist a:visited {color: #2D4F53; background:transparent; }
+.list-minorlist a:hover {text-decoration: underline; color: #FF0F00; background:transparent;}
+
+#LinkBarBlock a:link {color: #F5F9F4; background:transparent;}
+#LinkBarBlock a:visited {color: #F5F9F4; background:transparent;}
+#LinkBarBlock a:hover {text-decoration: underline; color: #FF0F00; background:transparent; }
+
+BODY, #BackgroundBlock {
+    color: #00181C;
+ 	   border-color: #D3C6B5; 
+}
+
+BODY {
+    background: #F5F9F4;
+}
+
+#BackgroundBlock {
+    background: #F5F9F4;
+}
+
+#PageBlock {
+ 	   border-color: #007380;
+    /* background: url(images/paper.jpg); */
+}
+
+#MainColumn {
+    color: #00181C;
+    background-color: transparent;  
+}
+
+#SideColumn {
+    color: #00181C;
+    background-color: #D3C6B5;  
+    border-left-color:#007380;
+}
+
+#LinkBarBlock, #LinkBarRightBlock {
+	    color: #F5F9F4; 
+}
+
+#LinkBarBlock, #LinkBarRightBlock, #LogoBlock, #PathBlock {
+   background-color: #007380;
+}
+
+H1, H2, H3 {
+color: #2D4F53;
+}
+
+
+
+
+#MainColumnBlock, #FinePrintBlock {
+  background-color:  transparent;
+  border-left-color:#007380;
+}
+
+#SideColumnBlock, #InternalNavBlock { 
+    background-color: transparent;
+}
+
+
+.copyright, .copyright A {
+    color: #D3C6B5;
+}
+
+.blogdate {
+    color: #00181C; 
+}
+
+.BlogDetail {
+    border-color: #00181C; 
+}
+
+input {
+  border-color: #2D4F53;
+    color: #00181C;
+    background-color: #F5F9F4;
+}

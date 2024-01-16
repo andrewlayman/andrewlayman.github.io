@@ -1,0 +1,562 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Placement   1/15/2024 6:13:15 PM */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+ 
+
+  
+
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+a {
+  display: inline;
+}
+
+p, blockquote {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+BODY {
+    text-align: center;
+    
+}
+
+.body-no-margin {
+    margin-left:0; 
+    margin-top:16px;
+    margin-right:32px;
+}
+
+.body-normal {
+    margin-left:16px;
+    margin-top:0;
+    margin-right:16px;
+    margin-bottom:0;
+}
+
+.attribution { 
+    margin-left:5em; 
+    padding-bottom: 1em;
+}
+
+#PageBlock {
+	display: inline-block;
+	text-align: left;  
+	width: 936px;
+	position:relative;  
+	
+			border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom-width: 1px;  
+	border-bottom-style: solid; 
+	}
+
+#InnerPageBlock {
+}
+
+#LinkBarBlock, #LinkBarRightBlock {
+   position: absolute;
+		    vertical-align: baseline;  
+			    line-height: 24px;
+    	padding-top: 28px;
+}
+
+#LogoBlock, #PathBlock {
+  padding-bottom: 8px;
+  vertical-align: top;
+}
+
+#LogoBlock { 
+   display: inline-block;
+   padding-left: 16px;
+   padding-right: 20px;
+   margin-left: 0;
+   margin-right: 0;  
+}
+
+#LogoBlock span {  
+	position: relative;
+	
+}
+
+
+/* offset to make line up with the larger text in the logo. */
+#PathBlock {
+	padding-top: 1px;	
+}
+
+#BackgroundBlock, #MainColumn, #SideColumn {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: 80px;
+    
+}
+
+
+
+#MainColumn {
+    left:0;
+}
+
+#SideColumn {
+	   width: 230px;
+		   left:706px;
+}
+
+#PathBlock 
+{
+    width:530px;  /* The 160 accounts for the size of the logo.  Too wide and it gets wrapped. */
+    padding-left: 0; 
+    padding-right: 0;
+} 
+
+
+#MainColumn 
+{
+    width:706px;  
+    padding-left: 0; 
+    padding-right: 0;
+} 
+
+#MainColumnBlock {
+    
+    width: 100%;
+}  
+
+#PathBlock, #MainColumnBlock, #FinePrintBlock {
+    margin: 0;
+    display:inline-block;
+    border-left-width: 1px;
+}
+
+
+
+#MainColumnBlock > p, #MainColumnBlock > h1, #MainColumnBlock > h2, #MainColumnBlock > h3, #MainColumnBlock > ul, #MainColumnBlock > .BlogDetail,  #MainColumnBlock > .credits,  #FinePrintBlock > * {
+    padding-left: 0px;
+    padding-right: 16px;
+}
+
+blockquote {
+  padding-left: 32px;
+}
+
+
+#MainColumnBlock, #SideColumnBlock 
+{
+    margin-bottom: 16px;
+}
+
+#InternalNavBlock, #FinePrintBlock {
+		padding-top:32px;
+		padding-bottom:0; 
+padding-right: 0;
+}
+
+#LinkBarBlock, #MainBlock, #PageFootBlock {
+	    float: none;
+	    display: block;
+		    clear: left;
+}
+
+#PageFootBlock {
+	}
+
+.maintable { 
+    vertical-align:text-top; 
+}
+
+#MainColumnBlock td {
+  vertical-align: top;
+}
+
+#MainColumnBlock P {
+  margin-top:.5em;
+  margin-bottom:.1em;
+}
+
+.setoffsection {
+  margin-top:1em; 
+  padding-top: 1em;
+  clear:both;
+}
+
+.subcolumnleft {
+  display:inline-block; 
+  float:left; 
+  width:210px;
+  padding-right: 20px;
+}
+
+.subcolumn {
+  display:inline-block; 
+  width:436px;
+  padding-right: 0;
+}
+
+
+#InternalNavBlock, #FinePrintBlock { 
+    vertical-align: top;   
+    padding-bottom: 0; 
+    margin: 0;
+	    display:inline-block;
+}
+
+
+#SideColumnBlock p, #SideColumnBlock .list-menu-table, #SideColumnBlock > form, #InternalNavBlock > p {
+	padding-right: 8px; 
+	display:block;
+    padding-bottom: 8px;
+}
+
+#SideColumnBlock > *, #InternalNavBlock > *, .caption {
+	padding-left: 16px;
+padding-right: 16px;         
+}
+
+#SideColumnBlock > .figure {
+	padding-left: 0; 
+padding-right: 0;        
+}
+
+
+
+label {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#InternalNavBlock {
+   padding-right: 0; 
+}
+
+
+#InternalNavBlock p, #FinePrintBlock p {
+  margin-top:0;
+}
+
+/*
+.contact, .addthis_toolbox {
+  display:inline-block;
+  padding-right: 2em;
+}
+*/
+
+.sharing {
+  padding-top:0; 
+  margin-bottom:0; 
+  margin-left:0; 
+}
+
+.Blogdetail .sharing {
+  padding-top:1.5em; 
+}
+
+.copyright {
+  margin-top:1.5em; 
+  margin-bottom:1.5em; 
+  margin-left:0; 
+}
+
+.datecell {
+	width:8em;
+}
+
+img { 
+	display : block; 
+	border-width: 0; 
+	margin:0; 
+	padding:0
+}
+
+H1 {
+	margin-left:0; 
+	margin-top:.5em; 
+}
+
+
+H2, H3, H4 {
+	margin-left:0; 
+	padding-top:2em; 
+}
+
+H2.TitlePageHeading {
+margin-top: 1em;
+		margin-bottom:.5em;
+padding-top: 0;
+}
+
+#MainColumnBlock H2 {
+	clear: left;
+}
+
+.SectionHead {
+	margin-left:0
+}
+
+.normaltext {
+	display:inline;
+} 
+
+
+#MainColumn p {
+  margin-left:0; 
+}
+
+
+.section {
+	display:block; 
+	margin-top: 1.5em; 
+	margin-right:0; 
+	margin-bottom:.3em; 
+	margin-left:0; 
+	width:565px;
+} 
+
+
+UL {
+  margin-left: 1em; 
+}
+
+UL  UL {   
+    margin-left: 1em;
+}
+
+.list- { 
+}
+
+.list-bullet {
+  margin-left: 1em; 
+  list-style-type: circle;
+}
+.li-modern {
+  list-style-type: circle
+}
+.li-original {
+  list-style-type: disc
+}
+
+.list-simple, .list-menu-table { 
+	list-style: none;
+	list-style-position: outside; 
+	margin: 0;
+	padding: 0;
+}
+
+
+.list-simple-tight {
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
+}
+
+.list-inline, .list-minorlist, .list-moreinfolist {
+  list-style: none; 
+  display:inline;
+  list-style-position: outside; 
+  margin: 0;
+  padding: 0;
+}
+
+.list-minorlist {
+	margin-left: 0.3em;
+}
+
+/* display an immediately-included "moreinfo" list preceded by an anchor as separated by a colon. */
+
+li > a + .list-minorlist {
+margin-left: 0;
+}
+
+.list-moreinfolist:before {   
+	content: " (more: ";
+	display: inline;
+		margin-left: 0;
+	margin-right: 0.3em;
+}
+
+.list-moreinfolist:after {   
+	content: ")";
+	display: inline;
+		margin-left: 0;
+	margin-right: 0;
+}
+
+.list-inline, .list-minorlist li, .list-moreinfolist li {
+  list-style:none;
+  display:inline; 
+  margin: 0;
+  padding: 0;
+}
+
+.list-simple-tight li, .credits li {
+  margin-top:0;
+}
+
+li {
+  margin-top: 1em; 
+}
+
+/* display the topic path as names separated by ">". */
+
+#PathBlock > li {
+  list-style:none;
+  display:inline; 
+  margin: 0;
+  padding: 0;
+}
+
+#PathBlock > li:before {
+	content: "> ";
+}
+
+#PathBlock > li:after {
+	content: " ";
+}
+
+
+
+.credits UL { 
+	list-style: none;
+	list-style-position: outside; 
+	margin: 0;
+	padding: 0;
+}
+
+
+.figure {
+	display:block;
+}
+
+
+.caption p, label p {
+  padding-top:.1em; 
+  padding-left:.3em; 
+  padding-right:.3em; 
+  padding-bottom:1em; 
+}
+
+.captionLarge {
+	margin-left:1em; 
+	margin-top:.5em; 
+	margin-bottom:0; 
+}
+
+
+.titleofwork {
+  display: inline;
+}
+
+.searchlabel
+{
+	display: block;
+margin-top: 0.5 em;
+}
+
+p.definition {
+  margin-bottom:1em
+}
+
+.listsimple li {
+    margin-top: 2em;
+}
+
+.BlogDetail {
+	    border-bottom: 1px black solid;
+    padding-bottom:32px;
+}
+
+.feedLinkStyle img {
+   display:inline;
+  margin-top:0; 
+  margin-left: .5em;
+  margin-bottom:0; 
+  margin-right: .5em;
+  padding: 0;
+
+}
+
+.BlogDetail .sharing {
+padding-top: 16px;
+}
+
+.sharing span, .sharing img {
+  display:inline; 
+  margin: 0;
+  padding: 0;
+}
+
+.sharing > UL {
+  list-style: none; 
+  display:inline;
+  list-style-position: outside; 
+  margin: 0;
+  padding: 0;
+}
+
+.sharing > UL LI {
+  list-style:none;
+  display:inline; 
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.dimensions, .buynow 
+{
+    display:inline-block;
+    padding-left: 0; 
+    padding-right: 16px;
+}

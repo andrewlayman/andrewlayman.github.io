@@ -1,0 +1,133 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style, scheme = "dark" Colors 1/15/2024 6:07:11 PM */
+
+
+
+
+a:link {text-decoration: none; color: #DB9E59; background:transparent; }
+a:visited {text-decoration: none;  color: #FB9E79; background:transparent;}
+a:hover {text-decoration: underline; color: #FFFFFF; background:transparent;}
+
+.minortext a:link {color: #DB8E39; background:transparent;}
+.minortext a:visited {color: #DB8E39; background:transparent; }
+.minortext a:hover {text-decoration: underline; color: #FFFFFF; background:transparent;}
+
+.list-minorlist a:link {color: #DB9E59; background:transparent;}
+.list-minorlist a:visited {color: #FB9E79; background:transparent; }
+.list-minorlist a:hover {text-decoration: underline; color: #FFFFFF; background:transparent;}
+
+#LinkBarBlock a:link {color: #2C0708; background:transparent;}
+#LinkBarBlock a:visited {color: #2C0708; background:transparent;}
+#LinkBarBlock a:hover {text-decoration: underline; color: #FFFFFF; background:transparent; }
+
+BODY, #BackgroundBlock {
+    color: #DB8E39;
+ 	   border-color: #D3C6B5; 
+}
+
+BODY {
+    background: #2C0708;
+}
+
+#BackgroundBlock {
+    background: #2C0708;
+}
+
+#PageBlock {
+ 	   border-color: #8B7B5D;
+    /* background: url(images/paper.jpg); */
+}
+
+#MainColumn {
+    color: #DB8E39;
+    background-color: transparent;  
+}
+
+#SideColumn {
+    color: #DB8E39;
+    background-color: #D3C6B5;  
+    border-left-color:#8B7B5D;
+}
+
+#LinkBarBlock, #LinkBarRightBlock {
+	    color: #2C0708; 
+}
+
+#LinkBarBlock, #LinkBarRightBlock, #LogoBlock, #PathBlock {
+   background-color: #8B7B5D;
+}
+
+H1, H2, H3 {
+color: #DB8E39;
+}
+
+
+
+
+#MainColumnBlock, #FinePrintBlock {
+  background-color:  transparent;
+  border-left-color:#8B7B5D;
+}
+
+#SideColumnBlock, #InternalNavBlock { 
+    background-color: transparent;
+}
+
+
+.copyright, .copyright A {
+    color: #D3C6B5;
+}
+
+.blogdate {
+    color: #DB8E39; 
+}
+
+.BlogDetail {
+    border-color: #DB8E39; 
+}
+
+input {
+  border-color: #DB8E39;
+    color: #DB8E39;
+    background-color: #2C0708;
+}
