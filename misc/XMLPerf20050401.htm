@@ -1,1 +1,118 @@
+<HTML>
+<HEAD></HEAD>
+<BODY>
 
+<h1>XML Performance Improvements through Interdisciplinary Factor Assessment and Application</h1>
+<h2>
+Opportunities for Improved XML Efficiency Considered from the Viewpoint of Encoding Characteristics 
+of XML as Informed by a Multi-Perspective Approach</h2>
+
+<p><i>Summary</i>: <a href="http://www.w3.org/TR/2005/NOTE-xbc-characterization-20050331/">Recent work</a>  has demonstrated a broad interest in alternative encodings of XML for
+ the purpose of improved efficiency. This paper considers several characteristics of XML, and, by drawing
+ on technologies from domains outside of core XML disciplines, identifies and draws tentative conclusions 
+that opportunities exist for alterations in the encoding of XML that will result in improvements in both speed 
+of transmission and message size.  Tradeoffs are examined.</p>
+
+<p>
+<ul>
+<li>Andrew Layman, Microsoft Corporation</li>
+<li>Don Box, Microsoft Corporation</li>
+</ul>
+</p>
+
+<p>April 1, 2005</p>
+
+<h2>Transmission Efficiency</h2>
+
+<p>XML documents can be considered as streams, and, as such, if we take a multidisciplinary approach to the analysis of the interaction between elements such as might be found in streams with the dynamic characteristics of a transmission medium, we can conjecture certain opportunities for improvement.  In particular, the boundary layer interactions induced by the aspect of the STag and ETag productions in XML are at present thought to be sub-optimal.</p>
+
+<p>First, consider a fragment of typical XML document, e.g. F1</p>
+
+<b><code>&lt;p&gt;The World Wide Web Consortium&lt;/p&gt;</code></b>
+
+<p>Recalling that it is our objective to have XML documents travel quickly, we considered it appropriate to analyze performance, to a first order, but considering the equations governing the transmission at velocities where the Reynolds Number (Re) may be affective of performance.  Here is a simplified set of relevant equations:
+
+  
+<br><img src="./XMLPerf20050401Images/e1.jpg"><br><img src="./XMLPerf20050401Images/e2.jpg"><br><img src="./XMLPerf20050401Images/e3.jpg"><br><img src="./XMLPerf20050401Images/e4.jpg"><br>
+ 
+ 
+using finite element approximation <br><img src="./XMLPerf20050401Images/e5.jpg"><br>
+ 
+and equation for velocity distribution obtain <br><img src="./XMLPerf20050401Images/e6.jpg"><br>
+ 
+the famous Poiseuille equation. 
+In this case average velocity is: <br><img src="./XMLPerf20050401Images/e7.jpg"><br>
+ 
+and maximum velocity (r=0) is: <br><img src="./XMLPerf20050401Images/e8.jpg"><br>
+ 
+
+</p>
+
+<p>These suggest that the acute presentation of the left angle bracket in the typical Stag and ETag induces turbulent flow at medium velocities, and, at sufficiently high velocities, shock.</p>
+
+<p>Experimental testing of XML fragments confirm this hypothesis.  Here is a photograph taken (using the usual crossed polarizers) of an XML fragment and the resulting flow discontinuities:</p>
+
+ 
+<img src="./XMLPerf20050401Images/Flow1.JPG"><br>
+
+<p>And, at higher speeds,</p>
+
+<img src="./XMLPerf20050401Images/Flow2.JPG"><br>
+ 
+
+<p>We conjectured that substitution of a rounded initial surface would produce a smoother boundary effect.  We tested this theory by means of parenthesis in place of the angle brackets in Fragment F2:</p>
+
+<b><code>(p)The World Wide Web Consortium(/p)</code></b>
+
+<p>Corresponding wind-tunnel tests of the F2 showed measurable reductions in drag with a corresponding increase in transmission speed.</p>
+
+<img src="./XMLPerf20050401Images/Flow3.JPG">
+
+<p>Note that optimal airfoil designs typically have a relatively blunt leading edge matched with a tapering tail, as in the following </p>
+ 
+<img src="./XMLPerf20050401Images/img00047.GIF"><br>
+ 
+
+<p>For this reason, the authors believe that the optimal character encoding of XML should employ a left parenthesis as the initial character of tags but retain the current right-angle-bracket for the final character, as in.</p>
+
+<b><code>(p&gt;The World Wide Web Consortium(/p&gt;</code></b>
+
+<p>Empirical testing shows the expected, smoothly-tapered flow.</p>
+
+<img src="./XMLPerf20050401Images/Flow4.JPG">
+
+<p>Future wind-tunnel research will investigate other combinations of start and end characters, including curly-braces, equal-signs and multiple angle brackets.</p>
+
+<p>Conclusion: A simple change to the encoding of XML that takes into account the physics of streams yields significant performance gains. Additionally, we conjecture that 
+that these results suggest that LISP S-expressions are functionally superior to XML notation.</p>
+<h2>Document Size</h2>
+
+<p>Just as consideration of factors from other domains suggested useful improvements to the transmission efficiency, we hypothesized that techniques from disciplines traditionally thought of as foreign to XML might yield improvements in size efficiency.  Investigation showed that the field of photography already has several widely-deployed technologies that can yield immediate benefits in the size of XML documents.</p>
+
+<p>The following picture shows an XML document before size-efficiency techniques are applied:</p>
+
+<img src="./XMLPerf20050401Images/w3.GIF" border=1>
+ 
+<p>Using the method of JPEG-encoding, the size needed to represent this figure can be reduced from 616KB to a mere 33KB, a reduction of approximately 95%, while still retaining substantial readability.</p>
+
+<img src="./XMLPerf20050401Images/w3.JPG" border=1>
+
+<p>Further size reductions are available through Adobe   PhotoShop  : </p>
+
+<img src="./XMLPerf20050401Images/w3b.JPG" border=1>
+
+ 
+<p>Conclusion</p>
+
+<p>We can draw several conclusions from these investigations.  One is that a properly-chosen interdisciplinary approach may yield results where more narrowly-considered approaches have failed.  Second, some fairly simple and/or widely-available techniques requiring only modest changes to software systems can produce surprising improvements in both speed and size-based efficiency of XML encoding.  Third, given the forgoing, we believe we have but scratched the surface of the results possible from this approach and expect to continue our investigations.  (We are considering a possible integration of the Semantic Web with Phenomenology.) See you next year!</p>
+
+<hr>
+Credits:
+<ul>
+<li>http://www.w3.org </li>
+<li>http://www.geocities.com/invitation21/DPZT_flow.htm</li>
+<li>http://history.nasa.gov/SP-4103/app-f.htm</li>
+http://www.cartage.org.lb/en/themes/Sciences/Physics/Mechanics/FluidMechanics/RealFluids/BoundaryLayers/BoundaryLayers.htm</li>
+</ul>
+
+</BODY>
